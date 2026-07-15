@@ -1,0 +1,11 @@
+Automatizacion
+
+
+Evento que activa la automatización:
+Cuando una petición alcanza la cantidad mínima de apoyos establecida en la plataforma.
+
+Mensaje que se envía:
+"¡La petición *[Nombre de la petición]* ha alcanzado el número de apoyos requerido! Ya está lista para generar el documento y continuar con el proceso."
+
+Información que no debe enviarse por seguridad:
+No se deben compartir datos personales de los ciudadanos, como números de identificación, teléfonos, correos electrónicos, direcciones, contraseñas, comentarios privados o cualquier otra información sensible que pueda afectar su privacidad.

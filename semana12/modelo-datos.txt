@@ -1,0 +1,24 @@
+MODELO BASICO DE DATOS
+
+Entidad: Petición
+
+id_peticion:Identificador único de la petición.
+titulo:Nombre de la petición.
+detalle:Descripción de la problemática o propuesta.
+categoria:Tipo de petición (ambiente, seguridad, educación, salud, etc.).
+estado:Estado de la petición (Activa, En revisión o Finalizada).
+fecha_creacion:Fecha en que fue registrada.
+
+¿Para qué sirve?
+La entidad *Petición* almacena toda la información de las solicitudes creadas por los ciudadanos, permitiendo organizarlas, clasificarlas y hacer seguimiento a su estado.
+
+Entidad: Participante
+
+id_participante:Identificador único del participante.
+peticion_id:Identificador de la petición que apoya.
+nombre_completo:Nombre del ciudadano.
+correo:Correo electrónico para validar la participación.
+fecha_participacion:Fecha en que registró su apoyo.
+
+¿Para qué sirve?
+La entidad *Participante* guarda la información de las personas que apoyan una petición, permitiendo verificar los apoyos, evitar registros duplicados y conocer cuántos ciudadanos respaldan cada iniciativa.

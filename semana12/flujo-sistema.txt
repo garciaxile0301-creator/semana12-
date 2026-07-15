@@ -1,0 +1,8 @@
+DESCRIPCION FLUJO DEL SISTEMA
+
+1. Un ciudadano ingresa a la plataforma y crea una nueva causa, escribiendo el título, la descripción y la entidad a la que va dirigida.
+2. La información de la causa se guarda automáticamente en la base de datos y queda disponible para consulta.
+3. Otros ciudadanos ingresan a la plataforma, revisan las causas publicadas y apoyan las que consideran importantes.
+4. El sistema registra cada apoyo, evita apoyos duplicados y actualiza el contador en tiempo real.
+5. Cuando la causa alcanza la cantidad de apoyos requerida, el sistema genera automáticamente un documento PDF con la petición y el listado de apoyos válidos.
+6. El documento puede ser descargado por el creador de la causa para presentarlo ante la entidad correspondiente o compartirlo con la comunidad
